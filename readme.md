@@ -40,7 +40,7 @@ To return a list of country names in 3 character abbreviation (ISO3)
 List of US and Canada states/provinces names (full English spelling)
 
 #### How to use
-To return a list of country names in full English spelling
+To return a list of US and Canada states/provinces names in full English spelling
 ```
   state_province:
     type: suggest
@@ -49,7 +49,7 @@ To return a list of country names in full English spelling
     max_items: 1
     display: State/Province (Full English spelling)
 ```
-To return a list of country names in 2 character abbreviation
+To return a list of US and Canada states/provinces names in 2 character abbreviation
 ```
   state_province:
     type: suggest
