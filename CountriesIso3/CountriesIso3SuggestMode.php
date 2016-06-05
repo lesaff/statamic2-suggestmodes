@@ -257,6 +257,6 @@ class CountriesIso3SuggestMode extends AbstractMode
             ["value" => "ZAF", "text" => "ZAF - South Africa"],
             ["value" => "ZMB", "text" => "ZMB - Zambia"],
             ["value" => "ZWE", "text" => "ZWE - Zimbabwe"]
-        ]
+        ];
     }
 }
