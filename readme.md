@@ -4,6 +4,9 @@ by Rudy Affandi (2016)
 ## What are these?
 These are a bunch of useful `SuggestMode` addon for Statamic v2.x. 
 
+![screen shot 2016-06-06 at 9 49 41 am](https://cloud.githubusercontent.com/assets/1151181/15822493/6a7ffc84-2bcc-11e6-91ac-938f0fa72e3c.png)
+![screen shot 2016-06-06 at 9 50 11 am](https://cloud.githubusercontent.com/assets/1151181/15822497/6d9d1e10-2bcc-11e6-9d2e-a9587bdf2548.png)
+
 ## Countries
 List of world country names in ISO format (full English spelling)
 
