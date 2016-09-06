@@ -11,6 +11,7 @@ Copy the one or more folder(s) to your `site/addons` folder in your Statamic v2.
 [1. Countries](#countries)  
 [2. State and Provinces](#statesprovinces)  
 [3. Collections](#collections)  
+[4. Forms](#forms)  
 
 ## Countries
 List of world country names in ISO format (full English spelling)
@@ -84,4 +85,40 @@ To return a list of all your available collections
     mode: Collections
     display: RSS Feed
     instructions: Select which collection(s) to use for your RSS Feed
+```
+
+## Forms
+List all available forms
+
+![screenshot 2016-09-06 11 57 29](https://cloud.githubusercontent.com/assets/414211/18286851/7b24227c-7429-11e6-80e3-b80a5be3895f.png)
+
+#### How to use
+To return a list of all your available forms
+```
+  form:
+    type: suggest
+    mode: forms
+    max_items: 1
+    display: Form
+```
+
+To output your form automagically
+```
+{{ form:create in="{form}" }}
+    {{ fields }}
+      <div class="form-group">
+        <label>{{ display }}</label>
+        {{ if field == "email" }}
+          <input type="text" name="{{ field }}" value="{{ old:email }}" class="form-control" />
+        {{ elseif field == "number" }}
+          <input type="number" name="{{ field }}" value="{{ old:number }}" class="form-control" />
+        {{ elseif field == "comment" }}
+          <textarea name="{{ field }}" class="form-control">{{ old:comment }}</textarea>
+        {{ else }}
+          <input type="text" name="{{ field }}" value="{{ old }}" class="form-control" />
+        {{ /if }}
+      </div>
+    {{ /fields }}
+    <button class="btn btn-primary">Submit</button>
+{{ /form:create }}
 ```
