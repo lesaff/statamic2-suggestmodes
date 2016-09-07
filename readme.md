@@ -12,6 +12,7 @@ Copy the one or more folder(s) to your `site/addons` folder in your Statamic v2.
 [2. State and Provinces](#statesprovinces)  
 [3. Collections](#collections)  
 [4. Forms](#forms)  
+[5. Typeforms](#typeforms)
 
 ## Countries
 List of world country names in ISO format (full English spelling)
