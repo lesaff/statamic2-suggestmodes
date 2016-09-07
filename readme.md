@@ -1,5 +1,7 @@
-# Statamic v2.x Suggest Mode Collection
-by Rudy Affandi (2016)
+# Statamic v2.x Suggest Mode Collection  
+Contributors:
+- [Rudy Affandi](https://github.com/lesaff) 
+- [Mike Martin](https://github.com/mikemartin)
 
 ## What are these?
 These are a bunch of useful `SuggestMode` addon for Statamic v2.x. 
