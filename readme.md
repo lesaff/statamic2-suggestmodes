@@ -1,7 +1,5 @@
-# Statamic v2.x Suggest Mode Collection  
-Contributors:
-- [Rudy Affandi](https://github.com/lesaff)
-- [Mike Martin](https://github.com/mikemartin)
+# Statamic v2.x Suggest Mode Collection [![StyleCI](https://styleci.io/repos/60434415/shield)]()  
+[Contributors](https://github.com/lesaff/statamic2-suggestmodes/graphs/contributors)
 
 ## What are these?
 These are a bunch of useful `SuggestMode` addons for Statamic v2.x.
