@@ -4,7 +4,7 @@ Contributors:
 - [Mike Martin](https://github.com/mikemartin)
 
 ## What are these?
-These are a bunch of useful `SuggestMode` addon for Statamic v2.x. 
+These are a bunch of useful `SuggestMode` addons for Statamic v2.x. 
 
 ## Installation
 Copy the one or more folder(s) to your `site/addons` folder in your Statamic v2.x installation
