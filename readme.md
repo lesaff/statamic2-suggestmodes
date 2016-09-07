@@ -1,10 +1,10 @@
 # Statamic v2.x Suggest Mode Collection  
 Contributors:
-- [Rudy Affandi](https://github.com/lesaff) 
+- [Rudy Affandi](https://github.com/lesaff)
 - [Mike Martin](https://github.com/mikemartin)
 
 ## What are these?
-These are a bunch of useful `SuggestMode` addon for Statamic v2.x. 
+These are a bunch of useful `SuggestMode` addon for Statamic v2.x.
 
 ## Installation
 Copy the one or more folder(s) to your `site/addons` folder in your Statamic v2.x installation
@@ -123,4 +123,24 @@ To output your form automagically
     {{ /fields }}
     <button class="btn btn-primary">Submit</button>
 {{ /form:create }}
+```
+
+
+## Typeforms
+Fetch list of all available typeforms
+
+#### How to use
+Copy default.yaml to `settings/addons/typeforms.yaml` and enter your `api_key`.
+
+```
+api_key: your-api-key
+```
+
+To return a list of all your available Typeforms
+```
+  form:
+    type: suggest
+    mode: typeforms
+    max_items: 1
+    display: Typeform
 ```
