@@ -130,12 +130,6 @@ To output your form automagically
 Fetch list of all available typeforms
 
 #### How to use
-Copy default.yaml to `settings/addons/typeforms.yaml` and enter your `api_key`.
-
-```
-api_key: your-api-key
-```
-
 To return a list of all your available Typeforms
 ```
   form:
@@ -143,4 +137,5 @@ To return a list of all your available Typeforms
     mode: typeforms
     max_items: 1
     display: Typeform
+    api_key: your-api-key
 ```

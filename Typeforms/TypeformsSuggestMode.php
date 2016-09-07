@@ -5,7 +5,7 @@ class TypeformsSuggestMode extends AbstractMode
 
     public function suggestions()
     {
-        $request = 'https://api.typeform.com/v1/forms?key='.$this->getConfig('api_key');
+        $request = 'https://api.typeform.com/v1/forms?key='.$this->request->input('api_key');
         $forms = @json_decode(file_get_contents($request), true);
         $data  = [];
         $index = 0;
