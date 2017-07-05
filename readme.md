@@ -138,3 +138,22 @@ To return a list of all your available Typeforms
     display: Typeform
     api_key: your-api-key
 ```
+
+
+## UsersFiltered
+List a filtered set of users
+
+#### How to use
+Add a `role` and/or a `group` parameter to the field.  
+The value has to be the unique id of the role or group.
+```
+  user:
+    type: suggest
+    mode: UsersFiltered
+    max_items: 1
+    display: User
+    role: roleid
+    group: groupid
+```
+
+_There is a [feature request](https://github.com/statamic/v2-hub/issues/1343) for the core_
