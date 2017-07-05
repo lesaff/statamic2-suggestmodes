@@ -3,13 +3,13 @@
 namespace Statamic\Addons\Collections;
 
 use Statamic\Addons\Suggest\Modes\AbstractMode;
-use Statamic\API\Content;
+use Statamic\API\Collection;
 
 class CollectionsSuggestMode extends AbstractMode
 {
     public function suggestions()
     {
-        $collections = Content::collections();
+        $collections = Collection::all();
 
         $data = [];
         $index = 0;
